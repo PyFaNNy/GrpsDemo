@@ -5,7 +5,7 @@ using GrpcDemo.Models;
 
 namespace GrpcDemo.Services;
 
-public class UserApiService : UserService.UserServiceBase
+public class UserService : GrpcDemo.UserService.UserServiceBase
 {
     static int id = 0; 
 

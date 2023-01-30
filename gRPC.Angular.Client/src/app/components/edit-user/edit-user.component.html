@@ -1,0 +1,19 @@
+
+<div *ngIf="user">
+  <h2>{{ user.getName() }}</h2>
+  <div>
+    Id:
+    <input [value]="user.getId()" placeholder="Id" disabled/>
+  </div>
+  <div>
+    Name:
+    <input [value]="user.getName()" placeholder="Name" />
+  </div>
+  <div>
+    Age:
+    <input [value]="user.getAge()" placeholder="18" />
+  </div>
+  <button (click)="updateUser(user)" *ngIf="user.getId()">Save</button>
+  <button (click)="deleteUser(user)" *ngIf="user.getId()">Delete</button>
+  <button (click)="createUser(user)" *ngIf="!user.getId()">Create</button>
+</div>
