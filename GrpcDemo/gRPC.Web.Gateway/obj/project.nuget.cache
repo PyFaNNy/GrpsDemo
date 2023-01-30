@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FHQlXYmWUkbJ9j/WzSBUu831CH82XW/27Vag6eW9/qDOV6mz6EEBz24Qddz2/10g0QyraI3W82lQUMv9dz+IVA==",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\GrpsDemo\\GrpcDemo\\gRPC.Web.Gateway\\gRPC.Web.Gateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\puzyr\\.nuget\\packages\\yarp.reverseproxy\\1.1.1\\yarp.reverseproxy.1.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
