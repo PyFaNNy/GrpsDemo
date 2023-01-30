@@ -60,4 +60,14 @@ export class EditUserComponent implements OnInit {
       }
     })
   }
+
+  changeAge(event:any)
+  {
+    this.user?.setAge(event.target.value)
+  }
+
+  changeName(event:any)
+  {
+    this.user?.setName(event.target.value)
+  }
 }
